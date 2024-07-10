@@ -136,3 +136,67 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+
+/* Skill */
+
+.skill-item{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.skill .skill-content{
+    height: 90px;
+    width: 909px;
+    margin: 0px auto;
+    
+}
+.skill .skill-content .skill-heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+
+}
+.skill .skill-content .skill-discription{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+
+}
+.skill-item{
+    height: 377px;
+    width: 1140px;
+    margin: 80px auto;
+}
+
+.skill-individual{
+    height: 377px;
+    width: 267px;
+    background-color: #FFFFFF;
+}
+.skill-individual .skill-image{
+    height: 44px;
+    width: 44px;
+    background-color: #FFFFFF;
+}
+.skill-individual .skill-about{
+    height: 196px;
+    width: 150px;
+    background-color: #FFFFFF;
+}
+
+.skill-individual .skill-about h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.skill-individual .skill-about p{
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+
+}
