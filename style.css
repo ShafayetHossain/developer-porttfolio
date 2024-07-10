@@ -139,18 +139,11 @@ nav{
 
 /* Skill */
 
-.skill-item{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-
-}
 
 .skill .skill-content{
-    height: 90px;
+    height: 166px;
     width: 909px;
     margin: 0px auto;
-    
 }
 .skill .skill-content .skill-heading{
     font-size: 35px;
@@ -165,16 +158,20 @@ nav{
     text-align: center;
 
 }
-.skill-item{
+.skill .skill-item{
     height: 377px;
     width: 1140px;
-    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
 }
 
 .skill-individual{
     height: 377px;
     width: 267px;
     background-color: #FFFFFF;
+    margin: 0px auto;
+    box-shadow: 0px 6px 50px 0px #a3a8f8;
 }
 .skill-individual .skill-image{
     height: 44px;
@@ -185,18 +182,19 @@ nav{
     height: 196px;
     width: 150px;
     background-color: #FFFFFF;
+    margin: 0px auto;
+
 }
 
 .skill-individual .skill-about h4{
     font-size: 18px;
     font-weight: bold;
     color: #181818;
-    text-align: center;
     margin-bottom: 0px;
+    margin-left: 0px;
 }
 .skill-individual .skill-about p{
     font-size: 16px;
     color: #757575;
     text-align: center;
-
 }
