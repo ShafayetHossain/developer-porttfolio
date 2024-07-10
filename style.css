@@ -198,3 +198,60 @@ nav{
     color: #757575;
     text-align: center;
 }
+
+.resume{
+    height: 550px;
+    width: 1140px;
+    margin: 0px auto;
+
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+.education-experience-container{
+
+}
+.education-experience-container h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+
+}
+.education-experience{
+
+
+}
+.education-experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin: 0px;
+
+}
+.education-experience-subtitle{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 0px;
+
+}
+.education-experience-description{
+    font-size: 16px;
+    color: #757575;
+
+}
+.cv-button{
+    text-align: center;
+}
+.cv-button button{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 25px;
+    border-radius: 3px;
+    border: none;
+    margin: 50px 0px;
+}
