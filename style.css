@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+.header{
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    /* height: 774px;
+    width: 135px; */
+}
 nav > h1{
     font-size: 45px;
     font-weight: 800;
@@ -33,5 +40,46 @@ nav > ul{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0px 38px 0px 200px;
+
     
+}
+.content-button{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 19px 17px 18px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 47px;
+
+}
+.banner .content{
+    height: 356px;
+    width: 585px;
+}
+.banner .content .content-intro{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 500;
+    /* margin: 0; */
+}
+.banner .content .content-owner{
+    color: #181818;
+    font-size: 85px;
+    font-weight: bold;
+    /* margin: 0; */
+}
+.banner .content .content-discription{
+    color: #757575;
+    font-size: 21px;
+}
+.banner-img{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 200px;
 }
